@@ -1,3 +1,37 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  height:100%;
+}
+
+body {
+  height:100%;
+  font-family: sans-serif;
+  color: #404040;
+}
+
+h1, h2, h3 {
+  font-family: monospace;
+}
+
+.my-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.66em;
+  color: #AAAAAA;
+  background-color: #f8f9fa;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.my-main-content {
+  padding: 1em 1em 40px 1em;
+
+}
+
+.my-image {
+  max-height: 50vh;
+}
